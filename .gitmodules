@@ -7,3 +7,6 @@
 [submodule "currency-conversion-service"]
 	path = currency-conversion-service
 	url = git@github.com:MysterTech/currency-conversion-service.git
+[submodule "eurekaServer"]
+	path = eurekaServer
+	url = git@github.com:MysterTech/eurekaServer.git
