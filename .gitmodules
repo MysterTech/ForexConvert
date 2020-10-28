@@ -1,6 +1,3 @@
-[submodule "naming-server"]
-	path = naming-server
-	url = git@github.com:MysterTech/naming-server.git
 [submodule "forex-service"]
 	path = forex-service
 	url = git@github.com:MysterTech/forex-service.git
