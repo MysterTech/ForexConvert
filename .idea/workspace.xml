@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,24 +22,49 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6b30045-c431-4f62-a2d6-479c516b3898" name="Default Changelist" comment="" />
+    <list default="true" id="a6b30045-c431-4f62-a2d6-479c516b3898" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/currency-conversion-service">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ForexConvert" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1jUSebQxhbctdmOnUiIGDO59KHf" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -44,11 +72,144 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.ForexConvert:currency-conversion-service [build]">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForexConvert:currency-conversion-service [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/currency-conversion-service" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CurrencyConversionServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ForexConvert.currency-conversion-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mystertech.currencyconversionservice.CurrencyConversionServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForexServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ForexConvert.forex-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mystertech.forexservice.ForexServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NamingServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ForexConvert.naming-server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mystertech.namingserver.NamingServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="currency-conversion-service/Dockerfile (1)" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="" />
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="currency-conversion-service/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="currency-conversion-service/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="" />
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="currency-conversion-service/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="forex-service/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="" />
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="forex-service/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="naming-server/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="" />
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="naming-server/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.ForexConvert:currency-conversion-service [build]" />
+        <item itemvalue="Docker.currency-conversion-service/Dockerfile (1)" />
+        <item itemvalue="Docker.forex-service/Dockerfile" />
+        <item itemvalue="Docker.naming-server/Dockerfile" />
+        <item itemvalue="Docker.currency-conversion-service/Dockerfile" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -58,8 +219,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603857273922</updated>
+      <workItem from="1603878992755" duration="1731000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -71,16 +236,33 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="443" y="130" width="1024" height="845" key="#Project_Structure" timestamp="1603857664053">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="443" y="130" width="1024" height="845" key="#Project_Structure/0.25.1920.1055/1920.312.1366.768@0.25.1920.1055" timestamp="1603857664053" />
-    <state x="738" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1603857844689">
+    <state x="738" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1603861078783">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state x="738" y="310" width="424" height="484" key="FileChooserDialogImpl/0.25.1920.1055/1920.312.1366.768@0.25.1920.1055" timestamp="1603857844689" />
+    <state x="738" y="310" width="424" height="484" key="FileChooserDialogImpl/0.25.1920.1055/1920.312.1366.768@0.25.1920.1055" timestamp="1603861078783" />
+    <state width="1874" height="278" key="GridCell.Tab.0.bottom" timestamp="1603871863590">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1874" height="278" key="GridCell.Tab.0.bottom/0.25.1920.1055/1920.312.1366.768@0.25.1920.1055" timestamp="1603871863590" />
+    <state width="1874" height="278" key="GridCell.Tab.0.center" timestamp="1603871863590">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1874" height="278" key="GridCell.Tab.0.center/0.25.1920.1055/1920.312.1366.768@0.25.1920.1055" timestamp="1603871863590" />
+    <state width="1874" height="278" key="GridCell.Tab.0.left" timestamp="1603871863589">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1874" height="278" key="GridCell.Tab.0.left/0.25.1920.1055/1920.312.1366.768@0.25.1920.1055" timestamp="1603871863589" />
+    <state width="1874" height="278" key="GridCell.Tab.0.right" timestamp="1603871863590">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1874" height="278" key="GridCell.Tab.0.right/0.25.1920.1055/1920.312.1366.768@0.25.1920.1055" timestamp="1603871863590" />
     <state x="269" y="154" width="1372" height="796" key="new project wizard" timestamp="1603858182822">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>

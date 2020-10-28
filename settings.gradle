@@ -2,3 +2,4 @@ rootProject.name = 'ForexConvert'
 
 include 'forex-service'
 include 'currency-conversion-service'
+include 'naming-server'
