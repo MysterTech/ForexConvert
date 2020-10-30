@@ -1,7 +1,6 @@
 # Modules
 currency-conversion-service
 forex-service
-naming-server
 eurekaServer
 
 # Compiled class file
